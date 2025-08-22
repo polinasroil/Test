@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Termux Command Guide</string>
+    <string-array name="termux_commands">
+        <item>pkg update: This command updates the package lists for upgrades and installs.</item>
+        <item>pkg upgrade: Upgrades all installed packages to their latest version.</item>
+        <item>pkg install [package_name]: Installs a package. Replace `[package_name]` with the name of the package you want to install.</item>
+        <item>pkg uninstall [package_name]: Uninstalls a package. Replace `[package_name]` with the name of the package you want to uninstall.</item>
+        <item>pkg search [keyword]: Searches for packages containing the specified keyword.</item>
+        <item>pkg list-all: Lists all available packages.</item>
+        <item>termux-setup-storage: Sets up storage in Termux to access files on your device.</item>
+        <item>pkg info [package_name]: Displays information about a specific package.</item>
+        <item>pkg list-installed: Lists all installed packages.</item>
+        <item>termux-wake-lock: Keeps the device awake while Termux is running.</item>
+        <item>termux-wake-unlock: Allows the device to sleep normally.</item>
+        <item>termux-open [file/path]: Opens a file or directory with the default app.</item>
+        <item>termux-open-url [URL]: Opens the specified URL in the default browser.</item>
+        <item>termux-toast [message]: Displays a toast message on the screen.</item>
+        <item>termux-volume [option]: Adjusts the volume. Options include `music`, `ring`, `alarm`, `notification`, and `system`.</item>
+        <item>termux-vibrate: Vibrates the device for a specified duration.</item>
+        <item>termux-share: Shares files or text using the Android share menu.</item>
+        <item>termux-clipboard-get: Retrieves the current contents of the clipboard.</item>
+        <item>termux-clipboard-set [text]: Sets the clipboard contents to the specified text.</item>
+        <item>termux-dialog: Opens a dialog box with various options.</item>
+        <item>termux-notification: Sends a notification with the specified title and text.</item>
+        <item>termux-sms-inbox: Lists received SMS messages.</item>
+        <item>termux-sms-send -n [number] [message]: Sends an SMS to the specified number with the given message.</item>
+        <item>termux-contact-list: Lists all contacts stored on the device.</item>
+        <item>termux-contact-get [contact_name]: Retrieves information about the specified contact.</item>
+        <item>termux-sms-list: Lists all SMS messages.</item>
+        <item>termux-tts-speak [text]: Converts text to speech and speaks it aloud.</item>
+        <item>termux-camera-photo [output_file]: Takes a photo using the device\'s camera and saves it to the specified file.</item>
+        <item>termux-camera-record [output_file]: Records a video using the device\'s camera and saves it to the specified file.</item>
+        <item>termux-media-player play [file]: Plays the specified audio or video file.</item>
+        <item>termux-media-player pause: Pauses the currently playing media.</item>
+        <item>termux-media-player stop: Stops the currently playing media.</item>
+        <item>termux-media-player seek [time]: Seeks to the specified time in the currently playing media.</item>
+        <item>termux-media-player playlist [file]: Loads a playlist file.</item>
+        <item>termux-download [URL]: Downloads a file from the specified URL.</item>
+        <item>termux-upload [source_file] [destination_directory]: Uploads a file to the specified directory.</item>
+        <item>termux-fix-shebang [file]: Fixes the shebang of a script file to make it executable.</item>
+        <item>termux-info: Displays system information.</item>
+        <item>termux-open-settings: Opens the Termux settings menu.</item>
+        <item>termux-wifi-enable [true/false]: Enables or disables Wi-Fi.</item>
+        <item>termux-battery-status: Shows the current battery status.</item>
+        <item>termux-telephony-cellinfo: Shows information about the current cellular network.</item>
+        <item>termux-telephony-deviceinfo: Shows device-specific information.</item>
+        <item>termux-telephony-imei: Shows the IMEI number of the device.</item>
+        <item>termux-telephony-signalstrength: Shows information about the signal strength of the cellular network.</item>
+        <item>termux-wifi-connectioninfo: Shows information about the current Wi-Fi connection.</item>
+        <item>termux-wifi-ipinfo: Displays information about the device\'s IP address.</item>
+        <item>termux-wifi-scaninfo: Scans for Wi-Fi networks and displays information about them.</item>
+        <item>termux-camera-info: Shows information about the device\'s camera(s).</item>
+        <item>termux-camera-snapshot [output_file]: Takes a snapshot using the device\'s camera and saves it to the specified file.</item>
+        <item>termux-camera-view: Opens a live preview from the device\'s camera.</item>
+        <item>termux-location: Shows the current device location.</item>
+        <item>termux-media-player: Controls media playback.</item>
+        <item>termux-media-scan [path]: Scans the specified path for media files.</item>
+        <item>termux-microphone-record [output_file]: Records audio using the device\'s microphone and saves it to the specified file.</item>
+        <item>termux-sms-view [message_id]: Displays the contents of the specified SMS message.</item>
+        <item>termux-storage-get [path]: Retrieves information about the specified storage path.</item>
+        <item>termux-storage-list: Lists all available storage volumes.</item>
+        <item>termux-torch [true/false]: Turns the device\'s flashlight on or off.</item>
+        <item>termux-tts-engines: Lists available text-to-speech engines.</item>
+        <item>termux-url-opener [URL]: Opens the specified URL in the default app.</item>
+        <item>termux-volume: Controls volume settings.</item>
+        <item>termux-wallpaper [file]: Sets the device\'s wallpaper to the specified image file.</item>
+        <item>termux-wifi-connect [SSID] [password]: Connects to the specified Wi-Fi network.</item>
+    </string-array>
+</resources>

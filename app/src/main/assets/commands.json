@@ -1,0 +1,86 @@
+[
+  {
+    "command": "pkg update",
+    "description": "This command updates the package lists for upgrades and installs."
+  },
+  {
+    "command": "pkg upgrade",
+    "description": "Upgrades all installed packages to their latest version."
+  },
+  {
+    "command": "termux-setup-storage",
+    "description": "Sets up storage in Termux to access files on your device."
+  },
+  {
+    "command": "termux-camera-photo [output_file]",
+    "description": "Takes a photo using the device's camera and saves it to the specified file."
+  },
+  {
+    "command": "termux-tts-speak [text]",
+    "description": "Converts text to speech and speaks it aloud."
+  },
+  {
+    "command": "termux-am broadcast -a [action]",
+    "description": "Sends a broadcast intent with the specified action."
+  },
+  {
+    "command": "termux-call-log",
+    "description": "Lists the call log."
+  },
+  {
+    "command": "termux-api",
+    "description": "Allows access to various device APIs from Termux shell scripts."
+  },
+  {
+    "command": "termux-job-scheduler [options]",
+    "description": "Schedules jobs to run in the background."
+  },
+  {
+    "command": "termux-activity-manager",
+    "description": "Manages activities running in the background."
+  },
+  {
+    "command": "termux-brightness [value]",
+    "description": "Sets the screen brightness to the specified value."
+  },
+  {
+    "command": "termux-cpu-info",
+    "description": "Displays information about the device's CPU."
+  },
+  {
+    "command": "termux-wifi-tether",
+    "description": "Tethers the device's Wi-Fi connection."
+  },
+  {
+    "command": "termux-chroot [directory]",
+    "description": "Changes the root directory for the current session."
+  },
+  {
+    "command": "termux-sudo",
+    "description": "Runs a command with superuser privileges."
+  },
+  {
+    "command": "termux-arp",
+    "description": "Displays and modifies the ARP cache."
+  },
+  {
+    "command": "termux-nmap",
+    "description": "Performs network discovery and security auditing."
+  },
+  {
+    "command": "termux-ping",
+    "description": "Sends ICMP echo requests to a host."
+  },
+  {
+    "command": "termux-cat [file]",
+    "description": "Displays the contents of a file."
+  },
+  {
+    "command": "termux-mkdir [directory]",
+    "description": "Creates directories."
+  },
+  {
+    "command": "termux-whoami",
+    "description": "Displays the username of the current user."
+  }
+]
